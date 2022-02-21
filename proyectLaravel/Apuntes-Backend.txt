@@ -1,0 +1,12 @@
+Crear proyecto laravel -> laravel new nombre
+
+terminal
+
+Iniciar proyecto -> php artisan serve
+Crear modelo -> php artisan make:model Articulo
+Crear tabla para luego migrar -> php artisan make:migration create_articulos_table
+Poner variables como descripcion en esta tabla y luego en modelo rellenar
+migrar dicha tabla a la base de datos -> php artisan migrate
+
+Realizamos controlador directo, nos hace el grud la plantilla
+php artisan make:controller ArticuloController --resource
